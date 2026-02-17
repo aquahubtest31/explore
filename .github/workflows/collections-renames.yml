@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
-      - uses: actions/checkout@v5.0.0
+      - uses: actions/checkout@v6.0.2
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@cf7216d52fba1017929b4d7162fabe2b30af5b49 # v1.262.0
